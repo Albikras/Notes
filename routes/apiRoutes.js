@@ -1,5 +1,6 @@
 const router = require("express").Router();
 
+const getRandomID = require("../helpers/getRandomID");
 const {
   readAndAppend,
   readFromFile,
@@ -21,6 +22,7 @@ router.post("/notes", (req, res) => {
     const newNotes = {
       title,
       text,
+      noteId: getRandomID(),
     };
 
     readAndAppend(newNotes, "./db/db.json");
