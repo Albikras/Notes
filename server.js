@@ -25,8 +25,9 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
-
 //create the link
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT}`)
+  console.log(
+    `App listening at http://localhost:${PORT} or https://notescreator.herokuapp.com`
+  )
 );
