@@ -53,3 +53,7 @@ Heroku: https://notescreator.herokuapp.com
 ## Video
 
 
+
+
+https://github.com/Albikras/Notes/assets/124819029/8ce6d41f-b932-4c4a-9c6f-e40d982833e9
+
